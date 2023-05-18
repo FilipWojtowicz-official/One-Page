@@ -29,7 +29,7 @@ a {
   font-weight: 700;
 }
 
-ul {
+.horizaontal-view {
   display: flex;
 }
 
@@ -94,6 +94,7 @@ ul {
 
 .employee-section {
   background-color: white;
+  height: calc(100vh - 50px);
 }
 .our-specialists {
   width: 386px;
@@ -156,6 +157,7 @@ ul {
 
 .offer-section {
   background-color: #405d78;
+  height: calc(100vh - 150px);
 }
 .offer-text {
   font-weight: 700;
@@ -194,9 +196,8 @@ ul {
 }
 .new {
   font-size: 18px;
-  position: absolute;
   color: #000000;
-  margin-top: 50px;
+  margin-top: 3px;
 }
 
 .box.with-dot::before {
@@ -232,6 +233,5 @@ ul {
   justify-content: space-between;
 }
 .footer-container {
-  height: 100%;
   align-items: center;
 }
